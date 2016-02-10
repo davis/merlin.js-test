@@ -4,7 +4,7 @@
   "description": "tests merlin.js with browserify",
   "main": "index.js",
   "dependencies": {
-    "merlin.js": "^1.0.5"
+    "merlin.js": "^1.0.6"
   },
   "devDependencies": {
     "browserify": "9.0.8"
