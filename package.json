@@ -1,0 +1,28 @@
+{
+  "name": "merlin.js-test",
+  "version": "1.0.0",
+  "description": "tests merlin.js with browserify",
+  "main": "index.js",
+  "dependencies": {
+    "merlin.js": "^1.0.5"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "scripts": {
+    "build": "browserify index.js -o bundle.js",
+    "view": "open index.html",
+    "start": "npm run build && npm run view",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davis/merlin.js-test.git"
+  },
+  "author": "davis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davis/merlin.js-test/issues"
+  },
+  "homepage": "https://github.com/davis/merlin.js-test#readme"
+}
