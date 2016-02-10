@@ -7,3 +7,5 @@ cd merlin.js-test
 npm install
 npm start
 ```
+
+your browser should open and you should see the following message: "Running merlin.js version 1.0.5"
